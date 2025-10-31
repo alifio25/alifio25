@@ -1,6 +1,9 @@
 ![alifio25](image/github-header-banner.png)
-##
+### Skills
+[![My Skills](https://skillicons.dev/icons?i=html,css,mysql)](https://skillicons.dev)
 
+### My Github stats
+![Alifio25's GitHub stats](https://github-readme-stats.vercel.app/api?username=alifio25)
 <!--
 **alifio25/alifio25** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
