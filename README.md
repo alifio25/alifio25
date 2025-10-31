@@ -1,4 +1,5 @@
-## Hi there 👋
+![alifio25](image/japanese%20great%20wave%20-%20Made%20with%20Clipchamp.gif)
+## Hello World I'm Alifio Eren Atmaja
 
 <!--
 **alifio25/alifio25** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
