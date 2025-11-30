@@ -13,41 +13,6 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=alifio25&icon=0&color=0)](https://visitcount.itsvg.in)
 
-name: Generate snake animation
-
-on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-
-  workflow_dispatch:
-
-  push:
-    branches:
-    - main
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-
-    steps:
-      - name: generate snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg?palette=github-dark
-
-
-      - name: push snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 <!-- ✨ Typing Animation
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=1000&lines=Hi+%F0%9F%91%8B%2C+I'm+Alifio%20Eren%20Atmaja;college%20student%20%E2%94%82%20Newbie%20Progammer;Welcome+to+my+GitHub+profile!" alt="Typing SVG" width="100%" />
